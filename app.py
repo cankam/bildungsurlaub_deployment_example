@@ -5,7 +5,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 # from dotenv import load_dotenv, find_dotenv # dotenv ist auskommentiert, da wir die API-Keys anders erhalten müssen
 # load_dotenv(find_dotenv())
- 
+
 model = ChatGroq(model="meta-llama/llama-4-maverick-17b-128e-instruct")
  
 st.title("Unser erster Chatbot")
